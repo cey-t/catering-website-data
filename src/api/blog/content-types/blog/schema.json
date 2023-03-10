@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
-    "Image": {
+    "cardImage": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -29,23 +29,24 @@
         "audios"
       ]
     },
-    "Summary": {
+    "summary": {
       "type": "string"
     },
-    "thumbnail": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "uid": {
+      "type": "uid"
+    },
+    "date": {
+      "type": "date"
+    },
+    "coverImage": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "uid": {
-      "type": "uid",
-      "targetField": "Title"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
