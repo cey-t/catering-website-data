@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customise_plans",
+  "info": {
+    "singularName": "customise-plan",
+    "pluralName": "customise-plans",
+    "displayName": "customise-plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "date"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Minimal Party",
+        "Medial Party",
+        "Premium Party"
+      ]
+    }
+  }
+}
